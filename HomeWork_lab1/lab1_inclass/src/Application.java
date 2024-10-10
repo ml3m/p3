@@ -7,9 +7,7 @@ public class Application {
         this.outputDevice = outputDevice;
     }
 
-    public void run() {
-        playGame();
-    }
+    public void run() { playGame();}
 
     public void playGame() {
         int player1Wins = 0;
